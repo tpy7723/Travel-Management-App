@@ -3,7 +3,7 @@
     여기 링크 들어가면 키 받는 곳 나옴
     https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=
     CLIENT_SIDE_ANDROID&r=1B:F0:34:1E:53:F4:43:86:5E:AD:E1:8F:D6:BA:64:42:D3:89:1E:
-    AB%3Bcom.example.pks01.bottom_navi
+    AB%3Bcom.example.
     -->
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         
