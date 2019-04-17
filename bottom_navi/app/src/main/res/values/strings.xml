@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">           여행 기록 어플</string>
+    <string name="title_home">List</string>
+    <string name="title_dashboard">Map</string>
+    <string name="title_notifications">Grid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="take_a_picture">take a picture</string>
+    <string name="todo">TODO</string>
+    <string name="post">Post</string>
+    <string name="내용">내용</string>
+    <string name="제목">제목</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CATEGORY">
+        <item >여행</item>
+        <item >친구</item>
+        <item >음식</item>
+        <item >기념일</item>
+        <item >해외</item>
+        <item >국내</item>
+        <item >기타</item>
+    </string-array>
+</resources>
+

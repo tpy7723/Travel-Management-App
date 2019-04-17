@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+subprojects {
+    repositories {
+//Gradle을 이용하면 소스를 받을 필요가 없음
+//로컬에 인스톨해줘야 하는 모듈을 리모트에서 다운받을 수 있음
+//필요한 기능이 포함된 라이브러리만 사용하여 앱 파일의 크기를 줄일 수 있음
+        mavenCentral()
+        maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

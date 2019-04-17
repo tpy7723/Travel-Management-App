@@ -1,0 +1,31 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+
+    <style name="CustomTextView" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/binggraebold</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:fontFamily">@font/binggraebold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- action bar font-->
+        <item name="android:textViewStyle">@style/CustomTextView</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+</resources>
