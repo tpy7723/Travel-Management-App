@@ -1,9 +1,9 @@
 <resources>
     <!-- Android SDK를 사용할 때에는 네이티브 앱 키를 사용 -->
-    <string name="kakao_app_key">c6288a1fee0eb5e6691ffba9e689e4c1</string>
+    <string name="kakao_app_key">ㅎ</string>
     <!--카카오톡링크API를사용하기위해앱으로연결할커스텀스킴을추가로등록-->
     <!--스킴(kakao_scheme): "kakao" 문자열에앱키의문자열값을붙인형식 -->
-    <string name="kakao_scheme">kakaoc6288a1fee0eb5e6691ffba9e689e4c1</string>
+    <string name="kakao_scheme">ㅎ</string>
     <!--호스트(kakaolink_host) : "kakaolink"로고정된값-->
     <string name="kakaolink_host">kakaolink</string>
 </resources>
