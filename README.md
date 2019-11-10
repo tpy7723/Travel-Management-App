@@ -5,3 +5,5 @@
 * 사용자지정 ListView, Floating button, Chooser, alert 사용  
 * 위도,경도,제목,내용,사진을 합쳐서 공유하는 기능을 구현  
 * Grid 식 이미지 갤러리 구현  
+  
+![image](./모소1.png)
